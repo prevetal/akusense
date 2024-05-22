@@ -1,0 +1,723 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 36px;
+        --font_size_title_small: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 24px;
+        left: 20px;
+    }
+
+
+    .swiper-pagination-bullet + .swiper-pagination-bullet
+    {
+        margin-left: 16px !important;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item
+    {
+        padding-bottom: 20px;
+    }
+
+
+    .accordion_item + .accordion_item
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .pagination a
+    {
+        font-size: 15px;
+        line-height: 34px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .pagination .sep
+    {
+        font-size: 15px;
+        line-height: 36px;
+    }
+
+
+    .pagination .prev .icon,
+    .pagination .next .icon
+    {
+        width: 11px;
+        height: 18px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0;
+    }
+
+
+    header .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    header .logo img
+    {
+        height: 24px;
+    }
+
+
+
+    header .socials a + a
+    {
+        margin-left: 20px;
+    }
+
+
+    header .socials .ic_phone,
+    header .socials .ic_whatsapp
+    {
+        width: 19px;
+        height: 19px;
+    }
+
+
+    header .socials .ic_telegram
+    {
+        width: 21px;
+        height: 19px;
+    }
+
+
+    header .socials .ic_email
+    {
+        width: 21px;
+        height: 16px;
+    }
+
+
+
+    header .search .btn
+    {
+        width: 44px;
+        height: 36px;
+    }
+
+
+    header .search .btn .icon
+    {
+        width: 19px;
+        height: 19px;
+    }
+
+
+    header .search .mini_modal
+    {
+        top: -4px;
+        right: -54px;
+    }
+
+
+    header .search .mini_modal form
+    {
+        width: calc(100vw - 40px);
+    }
+
+
+
+    header .mob_menu_btn
+    {
+        width: 44px;
+        height: 36px;
+    }
+
+
+
+    header .menu
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 20px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .file
+    {
+        margin-top: 0;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h3
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 20px;
+
+        padding-left: 20px;
+    }
+
+
+    .text_block .cols
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: 100%;
+    }
+
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 40px;
+    }
+
+
+    .text_block .slider
+    {
+        width: calc(100% + 40px);
+        margin-top: 40px;
+        margin-right: -20px;
+        margin-bottom: 40px;
+        margin-left: -20px;
+    }
+
+
+    .text_block hr
+    {
+        width: calc(100% + 40px);
+        margin-top: 40px;
+        margin-right: -20px;
+        margin-bottom: 40px;
+        margin-left: -20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 20px;
+    }
+
+
+
+    .breadcrumbs
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .breadcrumbs .sep
+    {
+        margin: 0 8px;
+    }
+
+
+
+    .page_title
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 400px;
+        padding-top: 48px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 100%;
+    }
+
+
+    .main_slider .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 356px;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+
+    .main_slider .link
+    {
+        margin-top: 24px;
+    }
+
+
+    .main_slider .img
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        margin-bottom: 20px;
+        padding-right: 40px;
+        padding-bottom: 24px;
+    }
+
+
+    .about_info .image:after
+    {
+        width: 220px;
+        height: 220px;
+    }
+
+
+    .about_info .text_block
+    {
+        padding-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head > * + *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -40px;
+        margin-left: -20px;
+    }
+
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+
+    .products .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+
+    /*------------------
+        Areas of use
+    ------------------*/
+    .areas_of_use .row > *
+    {
+        width: 160px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+    .videos .item .thumb .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .videos .item .thumb .icon svg
+    {
+        width: 17px;
+        height: 17px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*-----------------
+        Bottom btns
+    -----------------*/
+    .bottom_btns .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .bottom_btns .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .bottom_btns .btn
+    {
+        min-height: 124px;
+    }
+
+
+
+    /*--------------------
+        Sub categories
+    --------------------*/
+    .sub_categories .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .sub_categories .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .sub_categories .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .sub_categories .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+
+    .sub_categories .row > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .catalog .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .catalog .category
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .catalog .category .thumb
+    {
+        height: 124px;
+    }
+
+
+    .catalog .category .thumb img
+    {
+        bottom: 16px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .product_info .images .big
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    .product_info .images .big .image
+    {
+        height: 340px;
+    }
+
+
+    .product_info .buy
+    {
+        margin-top: 24px;
+        padding: 20px 0;
+    }
+
+
+    .product_info .price
+    {
+        font-size: 26px;
+    }
+
+
+    .product_info .buy_btn
+    {
+        height: 44px;
+        margin-left: 28px;
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features .label
+    {
+        width: 160px;
+    }
+
+
+    .product_features .val
+    {
+        width: calc(100% - 180px);
+    }
+
+
+
+    /*------------
+        Stats
+    ------------*/
+    .stats .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .accordion_item .head > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+    .FAQ .accordion_item .data
+    {
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        width: 100%;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    footer .creator
+    {
+        line-height: 21px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 400px;
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+}

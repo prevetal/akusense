@@ -1,0 +1,307 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+        --font_size_title_small: 28px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .socials
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 16px;
+    }
+
+
+    .form .columns > *.width2of3,
+    .form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 424px;
+        padding-top: 44px;
+    }
+
+
+    .main_slider .link a
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        padding-right: 24px;
+        padding-bottom: 20px;
+    }
+
+
+    .about_info .image:after
+    {
+        width: 180px;
+        height: 180px;
+    }
+
+
+
+    /*-----------------
+        Bottom btns
+    -----------------*/
+    .bottom_btns .btn
+    {
+        min-height: 144px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .catalog .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .catalog .category
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .catalog .category .thumb
+    {
+        height: 140px;
+    }
+
+
+    .catalog .category .thumb img
+    {
+        bottom: 12px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .thumbs
+    {
+        display: none;
+    }
+
+
+    .product_info .images .big
+    {
+        width: 100%;
+    }
+
+
+    .product_info .images .swiper-horizontal > .swiper-pagination-bullets,
+    .product_info .images .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .product_info .images .swiper-pagination-custom,
+    .product_info .images .swiper-pagination-fraction
+    {
+        display: flex;
+    }
+
+
+    .product_info .images .big .image
+    {
+        height: 335px;
+    }
+
+
+    .product_info .buy_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features .label
+    {
+        font-weight: 600;
+
+        width: 100%;
+    }
+
+
+    .product_features .val
+    {
+        width: 100%;
+        margin-top: 4px;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .section + .section
+    {
+        margin-top: 24px;
+    }
+
+
+    .files .file .icon + *
+    {
+        white-space: normal;
+    }
+
+
+    .files .file .name
+    {
+        line-height: 18px;
+    }
+
+
+    .files .file .info
+    {
+        line-height: 19px;
+
+        margin-top: 4px;
+    }
+
+
+
+    /*------------
+        Stats
+    ------------*/
+    .stats .item
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 44px;
+        line-height: 44px;
+
+        height: 44px;
+    }
+
+
+    .stats .item br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .phones
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .contacts_info .phones .sep
+    {
+        height: 16px;
+        margin: 0 16px;
+    }
+
+
+    .contacts_info .phones .ic_whatsapp
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .contacts_info .location
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .contacts_info .time
+    {
+        padding-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 20px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+}

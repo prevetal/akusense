@@ -1,0 +1,152 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+    .block.border
+    {
+        padding-bottom: 60px;
+    }
+
+    .block.bg
+    {
+        padding: 60px 0;
+    }
+
+
+
+    .swiper-button-prev
+    {
+        left: -56px;
+    }
+
+    .swiper-button-next
+    {
+        right: -56px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 40px;
+    }
+
+
+    .all_link a
+    {
+        padding-bottom: 8px;
+    }
+
+
+    .all_link a span:after
+    {
+        bottom: -8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont
+    {
+        padding: 0 40px;
+    }
+
+
+
+    header .menu
+    {
+        margin-left: 80px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 40px;
+    }
+
+
+
+    header .socials a + a
+    {
+        margin-left: 30px;
+    }
+
+
+
+    header .search
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 600px;
+    }
+
+
+    .main_slider .data
+    {
+        width: 604px;
+    }
+
+
+    .main_slider .desc
+    {
+        margin-top: 30px;
+        padding-top: 32px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        padding-right: 100px;
+        padding-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 50px;
+    }
+
+
+    footer .contacts
+    {
+        width: 324px;
+    }
+}
