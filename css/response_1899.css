@@ -77,13 +77,13 @@
 
     header .menu
     {
-        margin-left: 80px;
+        margin-left: 48px;
     }
 
 
     header .menu_item + .menu_item
     {
-        margin-left: 40px;
+        margin-left: 32px;
     }
 
 

@@ -268,13 +268,13 @@
 
     header .menu
     {
-        margin-left: 64px;
+        margin-left: 40px;
     }
 
 
     header .menu_item + .menu_item
     {
-        margin-left: 32px;
+        margin-left: 24px;
     }
 
 

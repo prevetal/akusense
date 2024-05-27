@@ -776,13 +776,13 @@ header .logo img
 header .menu
 {
     margin-right: auto;
-    margin-left: 98px;
+    margin-left: 92px;
 }
 
 
 header .menu_item + .menu_item
 {
-    margin-left: 95px;
+    margin-left: 92px;
 }
 
 

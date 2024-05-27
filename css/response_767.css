@@ -128,6 +128,12 @@
 
 
 
+    header .socials
+    {
+        display: none;
+    }
+
+
     header .socials a + a
     {
         margin-left: 20px;
